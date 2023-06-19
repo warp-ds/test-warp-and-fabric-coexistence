@@ -1,23 +1,24 @@
 import { classes } from '../classes';
-import FabricSteps from './fabric-steps';
-import WarpSteps from './warp-steps';
+import FabricCombobox from './fabric-combobox';
+import WarpCombobox from './warp-combobox';
 
-const Steps = () => {
+const Combobox = () => {
   return (
     <>
-    <h2>Steps</h2>
+    <h2>Combobox</h2>
+    <p>These examples does not cover all combobox examples in Fabric</p>
     <div className="comparison">
       <section className={classes.designSystemSection}>
         <h3>Fabric</h3>
-        <FabricSteps />
+        <FabricCombobox />
       </section>
       <section className={classes.designSystemSection}>
         <h3>Warp</h3>
-        <WarpSteps />
+        <WarpCombobox />
       </section>
     </div>
   </>
   )
 }
 
-export default Steps;
+export default Combobox;

@@ -2,7 +2,7 @@ import { Steps, Step, Button } from '@warp-ds/react';
 import { useState } from 'react';
 
 
-export const WarpSteps = () => {
+const WarpSteps = () => {
   const [state, setState] = useState(0);
   const [horizontal, setHorizontal] = useState(false);
   const [right, setRight] = useState(false);
@@ -60,3 +60,5 @@ export const WarpSteps = () => {
 
   )
 }
+
+export default WarpSteps;

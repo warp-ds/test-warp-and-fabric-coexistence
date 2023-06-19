@@ -20,6 +20,9 @@ const Sidebar = () => {
           <li>
             <a href={`/steps`}>Steps</a>
           </li>
+          <li>
+            <a href={`/combobox`}>Combobox</a>
+          </li>
         </ul>
       </nav>
     </div>

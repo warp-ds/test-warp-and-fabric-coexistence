@@ -1,7 +1,7 @@
 import { Steps, Step, Button } from '@fabric-ds/react';
 import { useState } from 'react';
 
-export const FabricSteps = () => {
+const FabricSteps = () => {
   const [state, setState] = useState(0);
   const [horizontal, setHorizontal] = useState(false);
   const [right, setRight] = useState(false);
@@ -59,3 +59,5 @@ export const FabricSteps = () => {
 
   )
 }
+
+export default FabricSteps;
