@@ -9,6 +9,7 @@ import Sidebar from './components/sidebar';
 import Steps from './components/steps';
 import Combobox from './components/combobox';
 import Select from './components/select';
+import Slider from './components/slider';
 
 const router = createBrowserRouter([
   {
@@ -42,6 +43,10 @@ const router = createBrowserRouter([
   {
     path: "/select",
     element: <Select />,
+  },
+  {
+    path: "/slider",
+    element: <Slider />,
   },
 ]);
 
