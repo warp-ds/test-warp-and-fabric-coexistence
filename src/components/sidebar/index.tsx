@@ -14,6 +14,9 @@ const Sidebar = () => {
           <li>
             <a href={`/pill`}>Pill</a>
           </li>
+          <li>
+            <a href={`/alert`}>Alert</a>
+          </li>
         </ul>
       </nav>
     </div>

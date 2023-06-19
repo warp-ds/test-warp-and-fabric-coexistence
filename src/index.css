@@ -41,7 +41,7 @@ main {
 .ds-section {
   margin: 24px;
   padding: 24px;
-  width: 500px;
+  min-width: 500px;
   justify-content: center;
   align-items: center;
   gap: 10px;

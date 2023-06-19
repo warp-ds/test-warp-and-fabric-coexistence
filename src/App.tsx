@@ -2,6 +2,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Alert from "./components/alert";
 import Button from './components/Button';
 import Pill from "./components/pill";
 import Sidebar from './components/sidebar';
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
   {
     path: "/pill",
     element: <Pill />,
+  },
+  {
+    path: "/alert",
+    element: <Alert />,
   },
 ]);
 
