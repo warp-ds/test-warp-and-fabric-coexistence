@@ -25,15 +25,17 @@ body {
   min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-  text-align: center;
+main {
+  position: absolute;
+  left: 250px;
+  padding: 24px;
+  width: calc(100vw - 250px)
 }
 
 .comparison {
   display: flex;
   width: 100%;
+  justify-content: center;
 }
 
 .ds-section {
