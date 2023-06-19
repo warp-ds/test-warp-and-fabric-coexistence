@@ -6,6 +6,7 @@ import Alert from "./components/alert";
 import Button from './components/Button';
 import Pill from "./components/pill";
 import Sidebar from './components/sidebar';
+import Steps from './components/steps';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
   {
     path: "/alert",
     element: <Alert />,
+  },
+  {
+    path: "/steps",
+    element: <Steps />,
   },
 ]);
 
