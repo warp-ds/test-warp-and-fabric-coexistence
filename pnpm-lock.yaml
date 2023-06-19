@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@fabric-ds/icons':
+    specifier: ^0.6.7
+    version: 0.6.7
   '@fabric-ds/react':
     specifier: ^1.5.2
     version: 1.5.2(@types/react@18.0.37)(react@18.2.0)
@@ -562,6 +565,10 @@ packages:
     resolution: {integrity: sha512-2qtju85xQRxaHmuc6nEmWaQUUYLNZGR/nQAYTvONNv7InJYHfLmKc/LTG6V0E/BPxGT3BBnBuuHBoxBghAqDVw==}
     dependencies:
       lit-html: 2.7.4
+
+  /@fabric-ds/icons@0.6.7:
+    resolution: {integrity: sha512-1UYhIuvJz9d1c5d3WfuQJLtMc8GNgsFhhFd61PNvSgFbl2IxwuBStK1LqLO0ntrqF2CxxVenhl8ccx4rOql9+w==}
+    dev: false
 
   /@fabric-ds/react@1.5.2(@types/react@18.0.37)(react@18.2.0):
     resolution: {integrity: sha512-RSBK7jdD8wc6D8Q9MNjIq6pye9FqIvr3EF9tyccOvv4EWv6YkaoEjQzy1I24OsGvJWHSCbhZYV2hFTDVQP/qPA==}

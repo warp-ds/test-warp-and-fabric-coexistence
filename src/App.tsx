@@ -3,6 +3,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Button from './components/Button';
+import Pill from "./components/pill";
 import Sidebar from './components/sidebar';
 
 const router = createBrowserRouter([
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "/button",
     element: <Button />,
+  },
+  {
+    path: "/pill",
+    element: <Pill />,
   },
 ]);
 
