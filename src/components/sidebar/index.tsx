@@ -23,6 +23,9 @@ const Sidebar = () => {
           <li>
             <a href={`/combobox`}>Combobox</a>
           </li>
+          <li>
+            <a href={`/select`}>Select</a>
+          </li>
         </ul>
       </nav>
     </div>

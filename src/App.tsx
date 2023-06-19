@@ -8,6 +8,7 @@ import Pill from "./components/pill";
 import Sidebar from './components/sidebar';
 import Steps from './components/steps';
 import Combobox from './components/combobox';
+import Select from './components/select';
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
   {
     path: "/combobox",
     element: <Combobox />,
+  },
+  {
+    path: "/select",
+    element: <Select />,
   },
 ]);
 
