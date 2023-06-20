@@ -5,10 +5,10 @@ const Sidebar = () => {
     <div id="sidebar">
       <nav>
         <ul>
-          <li><p>Actions</p></li>
           <li>
             <a href={`/`}>Home</a>
           </li>
+          <li><p>Actions</p></li>
           <li>
             <a href={`/button`}>Button</a>
           </li>
@@ -64,6 +64,9 @@ const Sidebar = () => {
           <li><p>Overlays</p></li>
           <li>
             <a href={`/attention`}>Attention</a>
+          </li>
+          <li>
+            <a href={`/modal`}>Modal</a>
           </li>
         </ul>
       </nav>

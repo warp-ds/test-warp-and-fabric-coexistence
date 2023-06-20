@@ -16,6 +16,7 @@ import Expandable from './components/expandable';
 import Tabs from './components/tabs';
 import Breadcrumbs from './components/breadcrumbs';
 import Attention from './components/attention';
+import Modal from './components/modal';
 
 export const router = createBrowserRouter([
   {
@@ -93,5 +94,9 @@ export const router = createBrowserRouter([
   {
     path: '/attention',
     element: <Attention />,
+  },
+  {
+    path: '/modal',
+    element: <Modal />,
   },
 ]);

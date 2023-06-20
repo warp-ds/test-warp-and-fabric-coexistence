@@ -2,7 +2,7 @@
 
 :root {
   /* Expect fabric and warp to reset colors like color and background-color */  
-  color: rgba(255, 255, 255, 0.87);
+  color: hotpink;
   background-color: #242424; 
 
   font-synthesis: none;
