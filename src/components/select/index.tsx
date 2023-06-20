@@ -1,23 +1,9 @@
-import { classes } from '../classes';
+import Comparison from '../comparison';
 import FabricSelect from './fabric-select';
 import WarpSelect from './warp-select';
 
 const Select = () => {
-  return (
-    <>
-    <h2>Select</h2>
-    <div className="comparison">
-      <section className={classes.designSystemSection}>
-        <h3>Fabric</h3>
-        <FabricSelect />
-      </section>
-      <section className={classes.designSystemSection}>
-        <h3>Warp</h3>
-        <WarpSelect />
-      </section>
-    </div>
-  </>
-  )
+  return <Comparison name="Select" Fabric={FabricSelect} Warp={WarpSelect} />;
 }
 
 export default Select;

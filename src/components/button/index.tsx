@@ -1,23 +1,9 @@
-import { classes } from '../classes';
+import Comparison from '../comparison';
 import FabricButton from './fabric-button';
 import WarpButton from './warp-button';
 
 const Button = () => {
-  return (
-    <>
-    <h2>Button</h2>
-    <div className="comparison">
-      <section className={classes.designSystemSection}>
-        <h3>Fabric</h3>
-        <FabricButton />
-      </section>
-      <section className={classes.designSystemSection}>
-        <h3>Warp</h3>
-        <WarpButton />
-      </section>
-    </div>
-  </>
-  )
+  return <Comparison name="Button" Fabric={FabricButton} Warp={WarpButton} />;
 }
 
 export default Button;

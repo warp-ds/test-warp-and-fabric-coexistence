@@ -1,23 +1,9 @@
-import { classes } from '../classes';
+import Comparison from '../comparison';
 import FabricTextfield from './fabric-textfield';
 import WarpTextfield from './warp-textfield';
 
 const Textfield = () => {
-  return (
-    <>
-    <h2>Textfield</h2>
-    <div className="comparison">
-      <section className={classes.designSystemSection}>
-        <h3>Fabric</h3>
-        <FabricTextfield />
-      </section>
-      <section className={classes.designSystemSection}>
-        <h3>Warp</h3>
-        <WarpTextfield />
-      </section>
-    </div>
-  </>
-  )
+  return <Comparison name="Textfield" Fabric={FabricTextfield} Warp={WarpTextfield} />;
 }
 
 export default Textfield;
