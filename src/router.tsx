@@ -11,6 +11,7 @@ import Textarea from "./components/textarea";
 import Textfield from "./components/textfield";
 import Toggle from "./components/toggle";
 import Box from "./components/box";
+import Card from "./components/card";
 
 export const router = createBrowserRouter([
   {
@@ -68,5 +69,9 @@ export const router = createBrowserRouter([
   {
     path: "/box",
     element: <Box />,
+  },
+  {
+    path: "/card",
+    element: <Card />,
   },
 ]);

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { TextField } from '@warp-ds/react';
-import { Affix } from '@fabric-ds/react';
+import { Affix } from '@warp-ds/react';
 
 const WarpTextarea = () => {
   const [value, setValue] = useState('me@email.com');

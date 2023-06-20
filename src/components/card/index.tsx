@@ -1,23 +1,23 @@
 import { classes } from '../classes';
-import FabricSelect from './fabric-select';
-import WarpSelect from './warp-select';
+import FabricCard from './fabric-card';
+import WarpCard from './warp-card';
 
-const Select = () => {
+const Card = () => {
   return (
     <>
-    <h2>Select</h2>
+    <h2>Card</h2>
     <div className="comparison">
       <section className={classes.designSystemSection}>
         <h3>Fabric</h3>
-        <FabricSelect />
+        <FabricCard />
       </section>
       <section className={classes.designSystemSection}>
         <h3>Warp</h3>
-        <WarpSelect />
+        <WarpCard />
       </section>
     </div>
   </>
   )
 }
 
-export default Select;
+export default Card;

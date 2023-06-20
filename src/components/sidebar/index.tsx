@@ -44,6 +44,9 @@ const Sidebar = () => {
           <li>
             <a href={`/box`}>Box</a>
           </li>
+          <li>
+            <a href={`/card`}>Card</a>
+          </li>
         </ul>
       </nav>
     </div>
