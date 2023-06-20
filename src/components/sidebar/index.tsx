@@ -38,6 +38,9 @@ const Sidebar = () => {
           <li>
             <a href={`/textfield`}>Textfield</a>
           </li>
+          <li>
+            <a href={`/toggle`}>Toggle</a>
+          </li>
         </ul>
       </nav>
     </div>

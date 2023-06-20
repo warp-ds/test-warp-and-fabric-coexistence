@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Switch } from '@warp-ds/react';
 
-const FabricSwitch = () => {
+const WarpSwitch = () => {
   const [value, setValue] = useState(false);
   const [value2, setValue2] = useState(false);
 
@@ -24,4 +24,4 @@ const FabricSwitch = () => {
   );
 };
 
-export default FabricSwitch;
+export default WarpSwitch;
