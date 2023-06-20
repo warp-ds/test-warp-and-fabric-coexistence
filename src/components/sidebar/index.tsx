@@ -32,6 +32,12 @@ const Sidebar = () => {
           <li>
             <a href={`/switch`}>Switch</a>
           </li>
+          <li>
+            <a href={`/textarea`}>Textarea</a>
+          </li>
+          <li>
+            <a href={`/textfield`}>Textfield</a>
+          </li>
         </ul>
       </nav>
     </div>

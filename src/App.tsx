@@ -11,6 +11,8 @@ import Combobox from './components/combobox';
 import Select from './components/select';
 import Slider from './components/slider';
 import Switch from './components/switch';
+import Textarea from "./components/textarea";
+import Textfield from "./components/textfield";
 
 const router = createBrowserRouter([
   {
@@ -52,6 +54,14 @@ const router = createBrowserRouter([
   {
     path: "/switch",
     element: <Switch />,
+  },
+  {
+    path: "/textarea",
+    element: <Textarea />,
+  },
+  {
+    path: "/textfield",
+    element: <Textfield />,
   },
 
 ]);
