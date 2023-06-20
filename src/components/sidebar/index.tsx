@@ -29,6 +29,9 @@ const Sidebar = () => {
           <li>
             <a href={`/slider`}>Slider</a>
           </li>
+          <li>
+            <a href={`/switch`}>Switch</a>
+          </li>
         </ul>
       </nav>
     </div>

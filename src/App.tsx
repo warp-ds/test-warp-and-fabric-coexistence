@@ -10,6 +10,7 @@ import Steps from './components/steps';
 import Combobox from './components/combobox';
 import Select from './components/select';
 import Slider from './components/slider';
+import Switch from './components/switch';
 
 const router = createBrowserRouter([
   {
@@ -48,6 +49,11 @@ const router = createBrowserRouter([
     path: "/slider",
     element: <Slider />,
   },
+  {
+    path: "/switch",
+    element: <Switch />,
+  },
+
 ]);
 
 function App() {
