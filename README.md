@@ -2,6 +2,20 @@
 
 This project aims to compare Fabric and Warp, in order to assess their coexistence and ensure that the design and functionality remain consistent. By running this project, you can test and evaluate how these two design systems work together. The goal is that the components look identical, regardless of the order of the stylesheet imports.
 
+## Change the order of stylesheet imports
+
+To observe the impact of changing the order of stylesheet imports, modify the `main.tsx`
+
+## Modify Warp stylesheet
+
+To observe the warp components with a different theme, change stylesheet in `index.html`.
+
+Finn: https://assets.finn.no/pkg/@warp-ds/tokens/v1/finn-no.css
+
+Tori: https://assets.finn.no/pkg/@warp-ds/tokens/v1/tori-fi.css
+
+Blocket: https://assets.finn.no/pkg/@warp-ds/tokens/v1/blocket-se.css
+
 ## Installation
 
 To install the project dependencies, navigate to the project directory and run the following command:
