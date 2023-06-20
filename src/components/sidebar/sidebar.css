@@ -22,6 +22,10 @@
 #sidebar li {
   margin: 0.25rem 0;
 }
+#sidebar li p{
+  display: flex;
+  font-weight: bold;
+}
 
 #sidebar nav a {
   display: flex;

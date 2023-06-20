@@ -5,6 +5,7 @@ const Sidebar = () => {
     <div id="sidebar">
       <nav>
         <ul>
+          <li><p>Actions</p></li>
           <li>
             <a href={`/`}>Home</a>
           </li>
@@ -14,6 +15,7 @@ const Sidebar = () => {
           <li>
             <a href={`/pill`}>Pill</a>
           </li>
+          <li><p>Feedback indication</p></li>
           <li>
             <a href={`/alert`}>Alert</a>
           </li>
@@ -23,6 +25,7 @@ const Sidebar = () => {
           <li>
             <a href={`/combobox`}>Combobox</a>
           </li>
+          <li><p>Forms</p></li>
           <li>
             <a href={`/select`}>Select</a>
           </li>
@@ -41,6 +44,7 @@ const Sidebar = () => {
           <li>
             <a href={`/toggle`}>Toggle</a>
           </li>
+          <li><p>Layout</p></li>
           <li>
             <a href={`/box`}>Box</a>
           </li>
@@ -53,9 +57,11 @@ const Sidebar = () => {
           <li>
             <a href={`/tabs`}>Tabs</a>
           </li>
+          <li><p>Navigation</p></li>
           <li>
             <a href={`/breadcrumbs`}>Breadcrumbs</a>
           </li>
+          <li><p>Overlays</p></li>
         </ul>
       </nav>
     </div>

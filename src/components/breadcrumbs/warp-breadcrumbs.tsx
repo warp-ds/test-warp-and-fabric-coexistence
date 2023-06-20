@@ -16,7 +16,7 @@ const WarpBreadcrumbs = () => {
         <a href="#/url/3">Check how</a>
         <a href="#/url/4">It looks</a>
         <a href="#/url/5">Like</a>
-        <a href="#/url/3" aria-current="page">
+        <a href="#/url/6" aria-current="page">
           Is it ugly?
         </a>
       </Breadcrumbs>
