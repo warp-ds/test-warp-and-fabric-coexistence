@@ -15,6 +15,7 @@ import Card from './components/card';
 import Expandable from './components/expandable';
 import Tabs from './components/tabs';
 import Breadcrumbs from './components/breadcrumbs';
+import Attention from './components/attention';
 
 export const router = createBrowserRouter([
   {
@@ -88,5 +89,9 @@ export const router = createBrowserRouter([
   {
     path: '/breadcrumbs',
     element: <Breadcrumbs />,
+  },
+  {
+    path: '/attention',
+    element: <Attention />,
   },
 ]);

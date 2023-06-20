@@ -62,6 +62,9 @@ const Sidebar = () => {
             <a href={`/breadcrumbs`}>Breadcrumbs</a>
           </li>
           <li><p>Overlays</p></li>
+          <li>
+            <a href={`/attention`}>Attention</a>
+          </li>
         </ul>
       </nav>
     </div>
