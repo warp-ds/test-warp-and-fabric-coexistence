@@ -53,6 +53,9 @@ const Sidebar = () => {
           <li>
             <a href={`/tabs`}>Tabs</a>
           </li>
+          <li>
+            <a href={`/breadcrumbs`}>Breadcrumbs</a>
+          </li>
         </ul>
       </nav>
     </div>

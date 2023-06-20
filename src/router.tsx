@@ -14,6 +14,7 @@ import Box from './components/box';
 import Card from './components/card';
 import Expandable from './components/expandable';
 import Tabs from './components/tabs';
+import Breadcrumbs from './components/breadcrumbs';
 
 export const router = createBrowserRouter([
   {
@@ -83,5 +84,9 @@ export const router = createBrowserRouter([
   {
     path: '/tabs',
     element: <Tabs />,
+  },
+  {
+    path: '/breadcrumbs',
+    element: <Breadcrumbs />,
   },
 ]);
