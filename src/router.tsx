@@ -12,6 +12,7 @@ import Textfield from './components/textfield';
 import Toggle from './components/toggle';
 import Box from './components/box';
 import Card from './components/card';
+import Expandable from './components/expandable';
 
 export const router = createBrowserRouter([
   {
@@ -73,5 +74,9 @@ export const router = createBrowserRouter([
   {
     path: '/card',
     element: <Card />,
+  },
+  {
+    path: '/expandable',
+    element: <Expandable />,
   },
 ]);

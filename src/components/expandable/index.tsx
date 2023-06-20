@@ -1,23 +1,23 @@
 import { classes } from '../classes';
-import FabricButton from './fabric-button';
-import WarpButton from './warp-button';
+import FabricExpandable from './fabric-expandable';
+import WarpExpandable from './warp-expandable';
 
-const Button = () => {
+const Expandable = () => {
   return (
     <>
-    <h2>Button</h2>
+    <h2>Expandable</h2>
     <div className="comparison">
       <section className={classes.designSystemSection}>
         <h3>Fabric</h3>
-        <FabricButton />
+        <FabricExpandable />
       </section>
       <section className={classes.designSystemSection}>
         <h3>Warp</h3>
-        <WarpButton />
+        <WarpExpandable />
       </section>
     </div>
   </>
   )
 }
 
-export default Button;
+export default Expandable;
