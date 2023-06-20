@@ -1,12 +1,8 @@
 @import url('@fabric-ds/css');
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
   /* Expect fabric and warp to reset colors like color and background-color */  
-  color: rgba(255, 255, 255, 0.87);
+  color: hotpink;
   background-color: #242424; 
 
   font-synthesis: none;
@@ -41,8 +37,7 @@ main {
 .ds-section {
   margin: 24px;
   padding: 24px;
-  width: 500px;
-  justify-content: center;
+  min-width: 500px;
   align-items: center;
   gap: 10px;
 }

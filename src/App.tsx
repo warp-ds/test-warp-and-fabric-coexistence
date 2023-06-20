@@ -1,29 +1,6 @@
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-import Button from './components/Button';
-import Pill from "./components/pill";
+import { RouterProvider } from "react-router-dom";
 import Sidebar from './components/sidebar';
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: (
-      <p>
-        Change the order of the css imports in main.tsx to check if the order of warp and fabric affects the components.
-    </p>
-    ),
-  },
-  {
-    path: "/button",
-    element: <Button />,
-  },
-  {
-    path: "/pill",
-    element: <Pill />,
-  },
-]);
+import { router } from './router';
 
 function App() {
   return (
