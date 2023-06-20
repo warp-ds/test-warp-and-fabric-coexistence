@@ -50,6 +50,9 @@ const Sidebar = () => {
           <li>
             <a href={`/expandable`}>Expandable</a>
           </li>
+          <li>
+            <a href={`/tabs`}>Tabs</a>
+          </li>
         </ul>
       </nav>
     </div>
