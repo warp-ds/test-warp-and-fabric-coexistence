@@ -41,6 +41,9 @@ const Sidebar = () => {
           <li>
             <a href={`/toggle`}>Toggle</a>
           </li>
+          <li>
+            <a href={`/box`}>Box</a>
+          </li>
         </ul>
       </nav>
     </div>

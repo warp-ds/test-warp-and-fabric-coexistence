@@ -10,6 +10,7 @@ import Switch from './components/switch';
 import Textarea from "./components/textarea";
 import Textfield from "./components/textfield";
 import Toggle from "./components/toggle";
+import Box from "./components/box";
 
 export const router = createBrowserRouter([
   {
@@ -64,5 +65,8 @@ export const router = createBrowserRouter([
     path: "/toggle",
     element: <Toggle />,
   },
-
+  {
+    path: "/box",
+    element: <Box />,
+  },
 ]);
