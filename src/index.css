@@ -1,9 +1,7 @@
-@import url('@fabric-ds/css');
-
 :root {
   /* Expect fabric and warp to reset colors like color and background-color */  
   color: hotpink;
-  background-color: #242424; 
+  background-color: rgb(105, 255, 108); 
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
