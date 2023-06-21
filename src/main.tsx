@@ -2,12 +2,13 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
 /***
- * Change order to see how the order affects the styling
- * Currently importing uno.css last breaks some fabric components
+ * Change order to see how the order affects the styling.
  */
-
-import './index.css' // Imports Fabric styling
-import 'uno.css' // Warp styling 
+import './index.css'
+// Fabric styling
+import '@fabric-ds/css';
+// Warp styling
+import 'uno.css'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
