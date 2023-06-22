@@ -3,44 +3,39 @@ import { TextArea } from '@warp-ds/react';
 
 const WarpTextarea = () => {
   const [value, setValue] = useState('Lorem ipsum');
-
-
   return (
     <>
-      <TextArea label="Description" />
+      <TextArea label="With Label" />
       <div className="flex space-x-32">
-        <TextArea label="Description (Uncontrolled)" defaultValue="Lorem ipsum" />
+        <TextArea label="Label + defaultValue (Uncontrolled)" defaultValue="Lorem ipsum" />
         <TextArea
-          label="Description (Controlled)"
+          label="Label + onChange + value (Controlled)"
           onChange={(event) => setValue(event.target.value)}
           value={value}
         />
       </div>
-      <TextArea label="Description" optional />
-      <TextArea label="Description" helpText="Maximum 200 characters" />
-      <TextArea label="Description" invalid helpText="Maximum 200 characters" />
-      <TextArea label="Description" placeholder="Lorem ipsum dolor sit amet" />
+      <TextArea label="Label optional" optional />
+      <TextArea label="Label helpText" helpText="Maximum 200 characters" />
+      <TextArea label="Label invalid helptext" invalid helpText="Maximum 200 characters" />
+      <TextArea label="Label placeholder" placeholder="With placeholder: Lorem ipsum dolor sit amet" />
       <div className="flex flex-col y-space-32">
-        <TextArea label="Description" disabled value="Lorem ipsum dolor sit amet" />
-        <TextArea label="Description" disabled />
+        <TextArea label="Label disabled value" disabled value="Lorem ipsum dolor sit amet" />
+        <TextArea label="Label disabled" disabled />
       </div>
       <div className="flex flex-col y-space-32">
-      <TextArea
-        label="Description"
-        readOnly
-        defaultValue="Lorem ipsum dolor sit amet"
-      />
-      <TextArea label="Description" readOnly />
-      <TextArea label="Description" minimumRows={3} />
-      <TextArea
-        label="Description"
-        maximumRows={3}
-        defaultValue={'Lorem\nipsum\ndolor\nsit\namet'}
-      />
-
-</div>
-
-
+        <TextArea
+          label="Label readonly defaultValue"
+          readOnly
+          defaultValue="Lorem ipsum dolor sit amet"
+        />
+        <TextArea label="Label readOnly" readOnly />
+        <TextArea label="Label minimumRows={3}" minimumRows={3} />
+        <TextArea
+          label="Label maximumRows={3} defaultValue"
+          maximumRows={3}
+          defaultValue={'Lorem\nipsum\ndolor\nsit\namet'}
+        />
+      </div>
     </>
   );
 };
