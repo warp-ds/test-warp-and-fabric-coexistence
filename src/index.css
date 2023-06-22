@@ -39,3 +39,12 @@ main {
   align-items: center;
   gap: 10px;
 }
+
+.button-section {
+  margin: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
