@@ -1,9 +1,9 @@
 import Comparison from '../comparison';
-import FabricSwitch from './fabric-toggle';
-import WarpSWitch from './warp-toggle';
+import FabricToggle from './fabric-toggle';
+import WarpToggle from './warp-toggle';
 
 const Toggle = () => {
-  return <Comparison name="Toggle" Fabric={FabricSwitch} Warp={WarpSWitch} />;
+  return <Comparison name="Toggle" Fabric={FabricToggle} Warp={WarpToggle} />;
 }
 
 export default Toggle;

@@ -12,7 +12,6 @@ const FabricTextField = () => {
       <TextField label="Name" />
       <div className="flex space-x-32">
         <TextField label="Email (Uncontrolled)" defaultValue="me@email.com" />
-
         <TextField
           label="Email (Controlled)"
           value={value}
