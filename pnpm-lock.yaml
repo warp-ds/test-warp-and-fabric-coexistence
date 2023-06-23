@@ -12,8 +12,8 @@ dependencies:
     specifier: ^1.5.2
     version: 1.5.2(@types/react@18.0.37)(react@18.2.0)
   '@warp-ds/react':
-    specifier: 1.0.0-alpha.30
-    version: 1.0.0-alpha.30(@types/react@18.0.37)(react@18.2.0)
+    specifier: 1.0.0-alpha.32
+    version: 1.0.0-alpha.32(@types/react@18.0.37)(react@18.2.0)
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -44,11 +44,11 @@ devDependencies:
     specifier: ^4.0.0
     version: 4.0.0(vite@4.3.9)
   '@warp-ds/component-classes':
-    specifier: 1.0.0-alpha.106
-    version: 1.0.0-alpha.106
+    specifier: 1.0.0-alpha.110
+    version: 1.0.0-alpha.110
   '@warp-ds/uno':
-    specifier: 1.0.0-alpha.45
-    version: 1.0.0-alpha.45
+    specifier: 1.0.0-alpha.47
+    version: 1.0.0-alpha.47
   eslint:
     specifier: ^8.38.0
     version: 8.38.0
@@ -1089,8 +1089,8 @@ packages:
       - supports-color
     dev: true
 
-  /@warp-ds/component-classes@1.0.0-alpha.106:
-    resolution: {integrity: sha512-WY6WEFlrflVA+QgRjEH4bl3UkcWqSRs7qNOuD5tFK0EWre/XzuBJQbp/XnWOaia2ZWztewlSFTq27J6fGOVWTg==}
+  /@warp-ds/component-classes@1.0.0-alpha.110:
+    resolution: {integrity: sha512-kqOYLHBxNjyuIs7X7hlZyywxua//Gxd6+h3H13d1RT/Zfkjnr/ByUJdFvbcYqPNrNsLLwqdPsRZTbL02f0EuDg==}
 
   /@warp-ds/core@1.0.0:
     resolution: {integrity: sha512-HCzgWm6wHR2Wh/rvNu9I4Qe1HdUj/i3v5amjioW38ZPh/Ve/y/0imX//ZXMLjshDVK+ZKU34Xd0TC56z/Yg36g==}
@@ -1098,13 +1098,13 @@ packages:
       '@floating-ui/dom': 0.5.4
     dev: false
 
-  /@warp-ds/react@1.0.0-alpha.30(@types/react@18.0.37)(react@18.2.0):
-    resolution: {integrity: sha512-TbMWxHc4zximnaJm80tyOqEhmyNipUMJPYyiEJRiIWntigH32X+RtPxt8SIo32NzsOQmsAKcUOuNWnO/rrWaBQ==}
+  /@warp-ds/react@1.0.0-alpha.32(@types/react@18.0.37)(react@18.2.0):
+    resolution: {integrity: sha512-+V5Pv5DD6WZ36de8ZlyIofZVdFvH9MDYOWXUTu77HQO8LAAmaavYOgh6BxMmdx1c2A55KkEKdr5yvL4ebYm5aw==}
     peerDependencies:
       react: 17.0.2
     dependencies:
       '@chbphone55/classnames': 2.0.0
-      '@warp-ds/component-classes': 1.0.0-alpha.106
+      '@warp-ds/component-classes': 1.0.0-alpha.110
       '@warp-ds/core': 1.0.0
       react: 18.2.0
       react-focus-lock: 2.9.4(@types/react@18.0.37)(react@18.2.0)
@@ -1114,8 +1114,8 @@ packages:
       - '@types/react'
     dev: false
 
-  /@warp-ds/uno@1.0.0-alpha.45:
-    resolution: {integrity: sha512-Uemwf0EgmZV4En+aT74ZX6pw/+w+CLVhgTMV/4e6FouDq+e79MknNtHVpm/ktLHlUgb4fedFCChSxRExgU1/RQ==}
+  /@warp-ds/uno@1.0.0-alpha.47:
+    resolution: {integrity: sha512-+8RGDnthKD5/FDGx+7/WdY0NsmGenTCfrPeHA+VoyFDrVgFxz+DiWn6SldayaeYVgjlmvXyKTVAn0leGZROXdQ==}
     dependencies:
       '@unocss/core': 0.50.8
       '@unocss/preset-mini': 0.50.8
