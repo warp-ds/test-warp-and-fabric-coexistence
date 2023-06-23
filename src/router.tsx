@@ -17,15 +17,12 @@ import Tabs from './components/tabs';
 import Breadcrumbs from './components/breadcrumbs';
 import Attention from './components/attention';
 import Modal from './components/modal';
+import Home from './components/home';
 
 export const router = createBrowserRouter([
   {
     path: '/',
-    element: (
-      <p>
-        Change the order of the css imports in main.tsx to check if the order of warp and fabric affects the components.
-    </p>
-    ),
+    element: <Home />,
   },
   {
     path: '/button',

@@ -11,11 +11,11 @@ const Comparison = ({ name, Fabric, Warp}: Props) => {
     <>
     <h2>{name}</h2>
     <div className="comparison">
-      <section className={classes.designSystemSection}>
+      <section className="ds-section shadow-4 flex flex-col">
         <h3>Fabric</h3>
         <Fabric />
       </section>
-      <section className={classes.designSystemSection}>
+      <section className="ds-section shadow-4 flex flex-col">
         <h3>Warp</h3>
         <Warp />
       </section>

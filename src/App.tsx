@@ -7,7 +7,7 @@ function App() {
     <>
       <Sidebar />
       <main>
-        <h1>Fabric + Warp </h1>
+        <h1>Fabric vs. Warp </h1>
         <RouterProvider router={router} />
       </main> 
       
