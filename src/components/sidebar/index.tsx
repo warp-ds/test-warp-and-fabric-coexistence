@@ -8,6 +8,7 @@ const Sidebar = () => {
           <li>
             <a href={`/`}>Home</a>
           </li>
+          <li><h3>COMPONENTS</h3></li>
           <li><p>Actions</p></li>
           <li>
             <a href={`/button`}>Button</a>
@@ -67,6 +68,40 @@ const Sidebar = () => {
           </li>
           <li>
             <a href={`/modal`}>Modal</a>
+          </li>
+          <li><h3>CSS classes</h3></li>
+          <li>
+            <a href={`/layout`}>Layout</a>
+          </li>
+          <li>
+            <a href={`/sizing`}>Sizing</a>
+          </li>
+          <li>
+            <a href={`/typography`}>Typography</a>
+          </li>
+          <li>
+            <a href={`/backgrounds`}>Backgrounds</a>
+          </li>
+          <li>
+            <a href={`/spacing`}>Spacing</a>
+          </li>
+          <li>
+            <a href={`/flexbox-and-grids`}>Flexbox and grids</a>
+          </li>
+          <li>
+            <a href={`/border`}>Border</a>
+          </li>
+          <li>
+            <a href={`/effects`}>Effects</a>
+          </li>
+          <li>
+            <a href={`/tables`}>Tables</a>
+          </li>
+          <li>
+            <a href={`/interactivty`}>Interactivty</a>
+          </li>
+          <li>
+            <a href={`/accessibility`}>Accessibility</a>
           </li>
         </ul>
       </nav>

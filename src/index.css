@@ -48,3 +48,8 @@ main {
   justify-content: center;
   align-items: center;
 }
+
+main {
+  overflow-y: scroll;
+  height: 100vh;
+}
