@@ -4,11 +4,11 @@ This project aims to compare Fabric and Warp, in order to assess their coexisten
 
 ## Change the order of stylesheet imports
 
-To observe the impact of changing the order of stylesheet imports, modify the `main.tsx`
+To observe the impact of changing the order of stylesheet imports, modify `index.html`.
 
-## Modify Warp stylesheet
+## Modify Warp brand css
 
-To observe the warp components with a different theme, change stylesheet in `index.html`.
+To observe the warp components with a different theme, change theme in `index.html`.
 
 Finn: https://assets.finn.no/pkg/@warp-ds/tokens/v1/finn-no.css
 
