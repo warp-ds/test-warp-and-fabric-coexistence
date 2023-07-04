@@ -8,6 +8,7 @@ const Sidebar = () => {
           <li>
             <a href={`/`}>Home</a>
           </li>
+          <li><h3>COMPONENTS</h3></li>
           <li><p>Actions</p></li>
           <li>
             <a href={`/button`}>Button</a>
@@ -67,6 +68,13 @@ const Sidebar = () => {
           </li>
           <li>
             <a href={`/modal`}>Modal</a>
+          </li>
+          <li><h3>CSS classes</h3></li>
+          <li>
+            <a href={`/layout`}>Layout</a>
+          </li>
+          <li>
+            <a href={`/typography`}>Typography</a>
           </li>
         </ul>
       </nav>

@@ -1,5 +1,4 @@
 import { FC } from 'react';
-import { classes } from './classes';
 
 type Props = {
   name: string,

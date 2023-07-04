@@ -12,8 +12,8 @@ dependencies:
     specifier: ^1.5.2
     version: 1.5.2(@types/react@18.0.37)(react@18.2.0)
   '@warp-ds/react':
-    specifier: 1.0.0-alpha.32
-    version: 1.0.0-alpha.32(@types/react@18.0.37)(react@18.2.0)
+    specifier: 1.0.0-alpha.34
+    version: 1.0.0-alpha.34(@types/react@18.0.37)(react@18.2.0)
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -43,9 +43,6 @@ devDependencies:
   '@vitejs/plugin-react':
     specifier: ^4.0.0
     version: 4.0.0(vite@4.3.9)
-  '@warp-ds/component-classes':
-    specifier: 1.0.0-alpha.110
-    version: 1.0.0-alpha.110
   '@warp-ds/uno':
     specifier: 1.0.0-alpha.47
     version: 1.0.0-alpha.47
@@ -1091,6 +1088,7 @@ packages:
 
   /@warp-ds/component-classes@1.0.0-alpha.110:
     resolution: {integrity: sha512-kqOYLHBxNjyuIs7X7hlZyywxua//Gxd6+h3H13d1RT/Zfkjnr/ByUJdFvbcYqPNrNsLLwqdPsRZTbL02f0EuDg==}
+    dev: false
 
   /@warp-ds/core@1.0.0:
     resolution: {integrity: sha512-HCzgWm6wHR2Wh/rvNu9I4Qe1HdUj/i3v5amjioW38ZPh/Ve/y/0imX//ZXMLjshDVK+ZKU34Xd0TC56z/Yg36g==}
@@ -1098,8 +1096,8 @@ packages:
       '@floating-ui/dom': 0.5.4
     dev: false
 
-  /@warp-ds/react@1.0.0-alpha.32(@types/react@18.0.37)(react@18.2.0):
-    resolution: {integrity: sha512-+V5Pv5DD6WZ36de8ZlyIofZVdFvH9MDYOWXUTu77HQO8LAAmaavYOgh6BxMmdx1c2A55KkEKdr5yvL4ebYm5aw==}
+  /@warp-ds/react@1.0.0-alpha.34(@types/react@18.0.37)(react@18.2.0):
+    resolution: {integrity: sha512-y3zCvfLRVT/uHjh3AWJzojCDlESKheKDXhnkVtcl31ZigfSMrbTQtbZMgHW6WZE3UiAy1SNnt/WRPD6U6QK04Q==}
     peerDependencies:
       react: 17.0.2
     dependencies:

@@ -18,8 +18,11 @@ import Breadcrumbs from './components/breadcrumbs';
 import Attention from './components/attention';
 import Modal from './components/modal';
 import Home from './components/home';
+import Typography from './components/css-classes/typography';
+import Layout from './components/css-classes/layout';
 
 export const router = createBrowserRouter([
+  // COMPONENTS
   {
     path: '/',
     element: <Home />,
@@ -95,5 +98,14 @@ export const router = createBrowserRouter([
   {
     path: '/modal',
     element: <Modal />,
+  },
+  // CSS CLASSES
+  {
+    path: '/typography',
+    element: <Typography />,
+  },
+  {
+    path: '/layout',
+    element: <Layout />,
   },
 ]);
