@@ -19,6 +19,7 @@ import Attention from './components/attention';
 import Modal from './components/modal';
 import Home from './components/home';
 import Typography from './components/css-classes/typography';
+import Layout from './components/css-classes/layout';
 
 export const router = createBrowserRouter([
   // COMPONENTS
@@ -102,5 +103,9 @@ export const router = createBrowserRouter([
   {
     path: '/typography',
     element: <Typography />,
+  },
+  {
+    path: '/layout',
+    element: <Layout />,
   },
 ]);
