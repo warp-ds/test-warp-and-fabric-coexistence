@@ -12,8 +12,8 @@ dependencies:
     specifier: ^1.5.2
     version: 1.5.2(@types/react@18.0.37)(react@18.2.0)
   '@warp-ds/react':
-    specifier: 1.0.0-alpha.34
-    version: 1.0.0-alpha.34(@types/react@18.0.37)(react@18.2.0)
+    specifier: 1.0.0-alpha.35
+    version: 1.0.0-alpha.35(@types/react@18.0.37)(react@18.2.0)
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -1096,8 +1096,8 @@ packages:
       '@floating-ui/dom': 0.5.4
     dev: false
 
-  /@warp-ds/react@1.0.0-alpha.34(@types/react@18.0.37)(react@18.2.0):
-    resolution: {integrity: sha512-y3zCvfLRVT/uHjh3AWJzojCDlESKheKDXhnkVtcl31ZigfSMrbTQtbZMgHW6WZE3UiAy1SNnt/WRPD6U6QK04Q==}
+  /@warp-ds/react@1.0.0-alpha.35(@types/react@18.0.37)(react@18.2.0):
+    resolution: {integrity: sha512-XDBa9lodtHvWDmRypoFmbzI1rPy6n/kDGVdGEqfIl48/PVoD43J9EK5FSuFoCn2QhQ4OyG/SSyihG4ZDBIb4Aw==}
     peerDependencies:
       react: 17.0.2
     dependencies:
