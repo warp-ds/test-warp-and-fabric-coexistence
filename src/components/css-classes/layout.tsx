@@ -119,15 +119,15 @@ const Layout = () => {
       </div>
 
       <p>Grid</p>
-      <div>
-        <div className="pd-bg-cyan-500 ex-box">01</div>
-        <div className="pd-bg-cyan-500 ex-box">02</div>
-        <div className="pd-bg-cyan-500 ex-box">03</div>
-        <div className="pd-bg-cyan-500 ex-box">04</div>
-        <div className="pd-bg-cyan-500 ex-box">05</div>
-        <div className="pd-bg-cyan-500 ex-box">06</div>
-        <div className="pd-bg-cyan-500 ex-box">07</div>
-        <div className="pd-bg-cyan-500 ex-box">08</div>
+      <div className="grid gap-4 grid-cols-3 grid-rows-3">
+        <div className="s-bg-primary-default s-text-inverted">01</div>
+        <div className="s-bg-primary-default s-text-inverted">02</div>
+        <div className="s-bg-primary-default s-text-inverted">03</div>
+        <div className="s-bg-primary-default s-text-inverted">04</div>
+        <div className="s-bg-primary-default s-text-inverted">05</div>
+        <div className="s-bg-primary-default s-text-inverted">06</div>
+        <div className="s-bg-primary-default s-text-inverted">07</div>
+        <div className="s-bg-primary-default s-text-inverted">08</div>
       </div>
     </section>
   )
