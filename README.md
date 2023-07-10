@@ -1,6 +1,12 @@
-# Fabric vs. Warp (React components)
+# Fabric vs. Warp
 
-This project aims to compare Fabric and Warp, in order to assess their coexistence and ensure that the design and functionality remain consistent. By running this project, you can test and evaluate how these two design systems work together. The goal is that the components look identical, regardless of the order of the stylesheet imports.
+This project aims to compare Fabric and Warp, in order to assess their coexistence and ensure that the design and functionality remain consistent. By running this project, you can test and evaluate how these two design systems work together. You can:
+
+1. Compare Fabric/Warp React components side by side
+2. Test some Fabric/Warp css classes
+3. Check how the resets affects basic html-tags
+
+The goal is that the components look identical, regardless of the order of the stylesheet imports in index.html
 
 ## Change the order of stylesheet imports
 
@@ -9,12 +15,6 @@ To observe the impact of changing the order of stylesheet imports, modify `index
 ## Modify Warp brand css
 
 To observe the warp components with a different theme, change theme in `index.html`.
-
-Finn: https://assets.finn.no/pkg/@warp-ds/tokens/v1/finn-no.css
-
-Tori: https://assets.finn.no/pkg/@warp-ds/tokens/v1/tori-fi.css
-
-Blocket: https://assets.finn.no/pkg/@warp-ds/tokens/v1/blocket-se.css
 
 ## Installation
 
