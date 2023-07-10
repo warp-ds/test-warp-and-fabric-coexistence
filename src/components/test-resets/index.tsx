@@ -1,6 +1,7 @@
 const TestResets = () => {
   return (
     <div>
+      <p>The Fabric/Warp resets should affect the styling of some of the html tags used here. </p>
       <p>Clickable button element (button):</p>
       <button onClick={() => console.log('clicked')}>Click me</button>
       <p>(anchor):</p>
@@ -47,11 +48,6 @@ const TestResets = () => {
 
       <hr/>
 
-      <p>Option group within a select element (optgroup):</p>
-      <optgroup label="Group 1">
-        <option>Option 1</option>
-        <option>Option 2</option>
-      </optgroup>
       <p>Progress indicator (progress):</p>
       <progress value="50" max="100"></progress>
       <p>Figure element, used for images and captions (figure):</p>
@@ -88,6 +84,11 @@ const TestResets = () => {
         <li>Menu item 1</li>
         <li>Menu item 2</li>
       </menu>
+      <p>Option group  (optgroup):</p>
+      <optgroup label="Group 1">
+        <option>Option 1</option>
+        <option>Option 2</option>
+      </optgroup>
     </div>
 
   )
