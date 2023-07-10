@@ -20,6 +20,7 @@ import Modal from './components/modal';
 import Home from './components/home';
 import Typography from './components/css-classes/typography';
 import Layout from './components/css-classes/layout';
+import TestResets from './components/test-resets';
 
 export const router = createBrowserRouter([
   // COMPONENTS
@@ -107,5 +108,10 @@ export const router = createBrowserRouter([
   {
     path: '/layout',
     element: <Layout />,
+  },
+  // BASIC HTML TAGS (test resets)
+  {
+    path: '/test-resets',
+    element: <TestResets />,
   },
 ]);
