@@ -76,6 +76,10 @@ const Sidebar = () => {
           <li>
             <a href={`/typography`}>Typography</a>
           </li>
+          <li><h3>Test resets</h3></li>
+          <li>
+            <a href={`/test-resets`}>Test Resets</a>
+          </li>
         </ul>
       </nav>
     </div>

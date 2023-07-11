@@ -12,8 +12,8 @@ dependencies:
     specifier: ^1.5.2
     version: 1.5.2(@types/react@18.0.37)(react@18.2.0)
   '@warp-ds/react':
-    specifier: 1.0.0-alpha.35
-    version: 1.0.0-alpha.35(@types/react@18.0.37)(react@18.2.0)
+    specifier: 1.0.0-alpha.37
+    version: 1.0.0-alpha.37(@types/react@18.0.37)(react@18.2.0)
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -915,7 +915,6 @@ packages:
 
   /@unocss/core@0.50.8:
     resolution: {integrity: sha512-rWmyeNE0Na8dJPDynLVar0X22qMHFNhO+/F2FZDpG4tubTavXJJo9uvhZr/D381kiWxt+XZ38y6EAD4UMdBqMA==}
-    dev: true
 
   /@unocss/core@0.53.1:
     resolution: {integrity: sha512-6CUaOMeQyoPIgMuSboX9yGywiCumhoYTPk6uMFhgD3vZmIRCZMwN9RFDLB+s2+NOlnBU6aQsJLONcUapZb/49g==}
@@ -968,7 +967,6 @@ packages:
     resolution: {integrity: sha512-/4sbOdyaqJMvFkw1xzo2+h6bZJHw6WCYw1mF+f0ydHzj8ruvwaj9ClDDOweW5cdrk3wzDzRZ6NPRahKqLwv6/Q==}
     dependencies:
       '@unocss/core': 0.50.8
-    dev: true
 
   /@unocss/preset-mini@0.53.1:
     resolution: {integrity: sha512-tHfsAXmu82/0BMktgqaq6WLOU5FdLdK/iJvS38eQLZqZlQ2VtCtNybf+bqlNNr0cr8J4ju2iwp7n61pqIvcmOw==}
@@ -1086,8 +1084,8 @@ packages:
       - supports-color
     dev: true
 
-  /@warp-ds/component-classes@1.0.0-alpha.110:
-    resolution: {integrity: sha512-kqOYLHBxNjyuIs7X7hlZyywxua//Gxd6+h3H13d1RT/Zfkjnr/ByUJdFvbcYqPNrNsLLwqdPsRZTbL02f0EuDg==}
+  /@warp-ds/component-classes@1.0.0-alpha.116:
+    resolution: {integrity: sha512-7bAQOPtynoGtgcZ+TSX6OE+chK2s0tW/fnE1dOScjDMvd7O+6EFbBi3eTKSnmozEKL/d9c7gGL/9/OnGxlF9lg==}
     dev: false
 
   /@warp-ds/core@1.0.0:
@@ -1096,14 +1094,15 @@ packages:
       '@floating-ui/dom': 0.5.4
     dev: false
 
-  /@warp-ds/react@1.0.0-alpha.35(@types/react@18.0.37)(react@18.2.0):
-    resolution: {integrity: sha512-XDBa9lodtHvWDmRypoFmbzI1rPy6n/kDGVdGEqfIl48/PVoD43J9EK5FSuFoCn2QhQ4OyG/SSyihG4ZDBIb4Aw==}
+  /@warp-ds/react@1.0.0-alpha.37(@types/react@18.0.37)(react@18.2.0):
+    resolution: {integrity: sha512-6jfFcViB5RyfhFWM6xxQxEGf1VymQM2SL78y36NtQmDa6mqxVoaYHQgKgy5uWhtDrNDyeMkbhCHo0wHUUx6EFA==}
     peerDependencies:
       react: 17.0.2
     dependencies:
       '@chbphone55/classnames': 2.0.0
-      '@warp-ds/component-classes': 1.0.0-alpha.110
+      '@warp-ds/component-classes': 1.0.0-alpha.116
       '@warp-ds/core': 1.0.0
+      '@warp-ds/uno': 1.0.0-alpha.58(@warp-ds/component-classes@1.0.0-alpha.116)
       react: 18.2.0
       react-focus-lock: 2.9.4(@types/react@18.0.37)(react@18.2.0)
       resize-observer-polyfill: 1.5.1
@@ -1118,6 +1117,16 @@ packages:
       '@unocss/core': 0.50.8
       '@unocss/preset-mini': 0.50.8
     dev: true
+
+  /@warp-ds/uno@1.0.0-alpha.58(@warp-ds/component-classes@1.0.0-alpha.116):
+    resolution: {integrity: sha512-azdVumf9P46ZwT0uLxOm2ik8yUWupBsVyE7pHncOdkubUBj23oSH8MalaqSO0p/7sK5H9hl6yKFG4lsD/kCYsQ==}
+    peerDependencies:
+      '@warp-ds/component-classes': 1.0.0-alpha.110
+    dependencies:
+      '@unocss/core': 0.50.8
+      '@unocss/preset-mini': 0.50.8
+      '@warp-ds/component-classes': 1.0.0-alpha.116
+    dev: false
 
   /acorn-jsx@5.3.2(acorn@8.9.0):
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
