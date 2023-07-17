@@ -6,9 +6,9 @@ import './index.css'
 
 /**
  * uno.css contains the uno generated css based on what classes that are used in this project.
- * Because we have set the skipResets flag in uno.config.js the warp reset is not included here.
+ * Because we have set the skipResets flag in uno.config.js, the warp reset is not included here.
  */
-import 'uno.css'  // Issue: Adding this makes the small react buttons too big?
+//import 'uno.css' 
 
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(

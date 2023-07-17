@@ -9,7 +9,7 @@ let reset;
 async function getReset() {
   if (reset) return reset;
   else {
-    reset = (await fetch('https://assets.finn.no/pkg/@warp-ds/css/1.0.0-alpha.22/resets.css')).text();
+    reset = (await fetch('https://assets.finn.no/pkg/@warp-ds/css/1.0.0-alpha.33/resets.css')).text();
     return reset;
   }
 }**/
