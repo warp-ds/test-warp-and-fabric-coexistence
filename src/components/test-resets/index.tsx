@@ -25,7 +25,7 @@ const TestResets = () => {
       <summary>Summary content</summary>
       <p>Block-level quotation (blockquote):</p>
       <blockquote>
-        <p>Quoted content:</p>
+        <p>Quoted content</p>
         <footer>Author</footer>
       </blockquote>
       <p>Inline element for indicating computer code (code):</p>
