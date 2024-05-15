@@ -12,8 +12,8 @@
   "dependencies": {
     "@fabric-ds/icons": "^0.6.7",
     "@fabric-ds/react": "^1.5.2",
-    "@warp-ds/css": "1.0.0-alpha.35",
-    "@warp-ds/react": "1.0.0-alpha.39",
+    "@warp-ds/css": "1.9.6",
+    "@warp-ds/react": "1.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.13.0"
@@ -25,7 +25,8 @@
     "@typescript-eslint/eslint-plugin": "^5.59.0",
     "@typescript-eslint/parser": "^5.59.0",
     "@vitejs/plugin-react": "^4.0.0",
-    "@warp-ds/uno": "1.0.0-alpha.60",
+    "@warp-ds/uno": "1.12.0",
+    "@warp-ds/core": "1.1.1",
     "eslint": "^8.38.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.3.4",

@@ -1,5 +1,6 @@
 import { defineConfig } from 'unocss';
 import { presetWarp } from '@warp-ds/uno';
+import { classes } from '@warp-ds/css/component-classes';
 
 /**
  * (The reset is included in index.html in this project to be able to test the order of fabric / warp reset there)
@@ -16,7 +17,7 @@ async function getReset() {
 
 export default defineConfig({
   presets: [
-    presetWarp({ skipResets: true })
+    presetWarp({ skipResets: true, externalClasses: classes })
   ],
   /**preflights: [{
     layer: 'preflights',
